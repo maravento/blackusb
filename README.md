@@ -102,6 +102,18 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 - After executing the BLOCK option, the **whitelist.txt** report file, which contains the white list of USB/HID devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option / Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte **whitelist.txt**, que contiene la lista blanca de dispositivos USB/HID excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE
 - BlackUSB for Windows is included in [Dextroyer](https://www.maravento.com/p/dxt.html) / BlackUSB para Windows está incluido en [Dextroyer](https://www.maravento.com/p/dxt.html)
 
+## USED TOOLS
+
+---
+
+- [WinZenity](https://github.com/maravento/winzenity)
+- [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy)
+- [Resource Hacker](http://www.angusj.com/resourcehacker/)
+- [74cz](http://74.cz/es/make-sfx/index.php)
+- [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
+- [USBOblivion](https://sourceforge.net/projects/usboblivion/)
+- [robvanderwoude](http://www.robvanderwoude.com/)
+
 ## CONTRIBUTIONS
 ---
 
@@ -119,8 +131,6 @@ BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
 [![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 [maravento.com](http://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-[WinZenity](https://github.com/maravento/winzenity), [Jpsoft](https://jpsoft.com/), [Indigo Rose](https://www.indigorose.com/autoplay-media-studio/), [SteelWerX](https://fstaal01.home.xs4all.nl/swreg-us.html), [Microsoft](https://www.microsoft.com/), [74cz](http://74.cz/es/make-sfx/index.php), [Resource Hacker](http://www.angusj.com/resourcehacker/), [HashGenerator](http://www.SecurityXploded.com), [USBOblivion](https://sourceforge.net/projects/usboblivion/), [robvanderwoude](http://www.robvanderwoude.com/)
 
 © 2021 [Maravento Studio](http://www.maravento.com)
 
