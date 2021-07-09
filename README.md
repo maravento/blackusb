@@ -10,17 +10,17 @@
 It is a bash script that generates a white list of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules / Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
 
 ```
-sudo wget -q -N https://gitlab.com/maravento/blackusb/-/raw/master/linux/blackusb -O /etc/init.d/blackusb && sudo chmod +x /etc/init.d/blackusb
+sudo wget -q -N https://gitlab.com/maravento/blackusb/-/raw/master/linux/blackusb.sh -O /etc/init.d/blackusb.sh && sudo chmod +x /etc/init.d/blackusb.sh
 ```
 
 ### How to Use
 
 Example:
 
-`blackusb show` or `blackusb s`
+`blackusb.sh show` or `blackusb.sh s`
 
 ```
-sudo /etc/init.d/blackusb s
+sudo /etc/init.d/blackusb.sh s
  0 Name=xHCI Host Controller, Vendor=1d6b, Product=0003, Serial=0022:00:14.0
  1 Vendor=8087, Product=07dc
  2 Name=USB2.0-CRW, Vendor=0bda, Product=0129, Serial=20100001396000000
