@@ -5,21 +5,22 @@
 **BlackUSB** es un script experimental, que previene el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. Genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
 
 ## FOR LINUX OS
+
 ---
 
 It is a bash script that generates a white list of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules / Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
 
-```
+```bash
 sudo wget -q -N https://gitlab.com/maravento/blackusb/-/raw/master/linux/blackusb.sh -O /etc/init.d/blackusb.sh && sudo chmod +x /etc/init.d/blackusb.sh
 ```
 
-### How to Use
+### How To Use (For Linux)
 
 Example:
 
 `blackusb.sh show` or `blackusb.sh s`
 
-```
+```bash
 sudo /etc/init.d/blackusb.sh s
  0 Name=xHCI Host Controller, Vendor=1d6b, Product=0003, Serial=0022:00:14.0
  1 Vendor=8087, Product=07dc
@@ -29,7 +30,7 @@ sudo /etc/init.d/blackusb.sh s
  5 Name=xHCI Host Controller, Vendor=1d6b, Product=0002, Serial=0022:00:14.0
 ```
 
-### Data Sheet
+### Data Sheet (For Linux)
 
 |Full|Short|Description|
 |----|-----|-----------|
@@ -53,7 +54,7 @@ It consists of turning off your terminal when inserting an unauthorized and/or u
 
 Example:
 
-```
+```bash
 2017-07-06 12:34:10 Blackusb triggered!
 Unknown Device Blocked: SUBSYSTEM=="usb", ATTR{idVendor}=="0781", ATTR{idProduct}=="5567", ATTR{serial}=="4C530799910104103543"
 Cruzer Blade
@@ -76,11 +77,12 @@ This project is based on: / Este proyecto está basado en:
 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## FOR WINDOWS OS
+
 ---
 
 Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardReader, PCMCIA, Printers, SCSI, RAID, etc. Cleans previous device installations, rescans those connected and blocks new ones / Herramienta para bloquear dispositivos no autorizados USB, HID, HDC, Bluetooth, IEEE, SmartCardReader, PCMCIA, Printers, SCSI, RAID, etc. Limpia instalaciones previas de dispositivos, reescanea los conectados y bloquea los nuevos
 
-### Data Sheet
+### Data Sheet (For Windows)
 
 [![Image](https://1.bp.blogspot.com/-Y_vVfquMvAE/WsOHgH6kY1I/AAAAAAAAD6Q/PPbPjbEBHH4YJDrcU6tE0ENbhHMroAmRQCLcBGAs/s1600/quick-download.png)](https://gitlab.com/maravento/blackusb/-/raw/master/win/blackusb.zip)
 
@@ -88,13 +90,13 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 |----|-------|--|----|
 |blackusb.exe (.zip)|1.0|Windows 7/8/10 x86 x64|4,2 MB|
 
-#### How to Use
+### How To Use (For Windows)
 
 - Disable your Antivirus, Antimalware, SmartScreen or any other security solution in your Operating System and close all windows / Desactive su Antivirus, Antimalware, SmartScreen o cualquier otra solución de seguridad en su Sistema Operativo y cierre todas las ventanas
 - Download BlackUSB.exe (.zip)), unzip it on your desktop / Descargue BlackUSB.exe (.zip), descomprimirlo en el escritorio
 - Run Setup by double-clicking accept execution with privileges and follow the onscreen instructions / Ejecútelo con doble clic, acepte la ejecución con privilegios y siga las instrucciones en pantalla
 
-#### Important Before Use
+### Important Before Use
 
 - Do not press **BLOCK** button twice in a row or it will block all USB/HID devices. / No pulse el botón **BLOCK**, dos veces seguidas, o bloqueará todos los dispositivos USB/HID
 - If you have defined [GPO policies](https://en.wikipedia.org/wiki/Group_Policy) on your system, they will be rewritten. Make a GPO backup before using BlackUSB / Si tiene establecidas [políticas GPO](https://es.wikipedia.org/wiki/Directiva_de_Grupo) en su sistema, serán reescritas. Haga backup GPO antes de usar BlackUSB
@@ -115,16 +117,19 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 - [robvanderwoude](http://www.robvanderwoude.com/)
 
 ## CONTRIBUTIONS
+
 ---
 
 We thank all those who contributed to this project / Agradecemos a todos los que han contribuido con este proyecto
 
 ## DONATE
+
 ---
 
 BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
 ## LICENCES
+
 ---
 
 [![GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
@@ -135,6 +140,7 @@ BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 © 2021 [Maravento Studio](http://www.maravento.com)
 
 ## DISCLAIMER
+
 ---
 
 This scripts can damage your system if used incorrectly. Use it at your own risk / Estos scripts puede dañar su sistema si se usan incorrectamente. Úselos bajo su propio riesgo
