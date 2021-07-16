@@ -112,7 +112,7 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 - [Robust File Copy](https://es.wikipedia.org/wiki/Robocopy)
 - [Resource Hacker](http://www.angusj.com/resourcehacker/)
 - [74cz](http://74.cz/es/make-sfx/index.php)
-- [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
+- [7zSFX Builder](https://gitlab.com/maravento/7zsfxbuilder)
 - [USBOblivion](https://sourceforge.net/projects/usboblivion/)
 - [robvanderwoude](http://www.robvanderwoude.com/)
 
@@ -134,10 +134,10 @@ BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
 [![GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
 
+© 2021 [Maravento Studio](http://www.maravento.com)
+
 [![CreativeCommons](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 [maravento.com](http://www.maravento.com) is licensed under a [Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-© 2021 [Maravento Studio](http://www.maravento.com)
 
 ## DISCLAIMER
 
