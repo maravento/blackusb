@@ -1,5 +1,9 @@
 # [BlackUSB](https://www.maravento.com)
 
+[![GPL v3+](https://img.shields.io/badge/License-GPL%20v3%2B-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Generic badge](https://img.shields.io/badge/status-beta-<COLOR>.svg)](https://shields.io/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/maraventostudio.svg?style=social)](https://twitter.com/maraventostudio)
+
 **BlackUSB** is a experimental script, that prevents theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. Generates a whitelist of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules.
 
 **BlackUSB** es un script experimental, que previene el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. Genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
@@ -109,7 +113,7 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 ---
 
 - [74cz](http://74.cz/es/make-sfx/index.php)
-- [7zSFX Builder](https://gitlab.com/maravento/7zsfxbuilder)
+- [7zSFX Builder](https://sourceforge.net/projects/s-zipsfxbuilder/)
 - [Resource Hacker](http://www.angusj.com/resourcehacker/)
 - [Robust File Copy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy)
 - [robvanderwoude](http://www.robvanderwoude.com/)
@@ -120,7 +124,7 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 
 ---
 
-We thank all those who contributed to this project / Agradecemos a todos los que han contribuido con este proyecto
+We thank all those who have contributed to this project / Agradecemos a todos aquellos que han contribuido a este proyecto
 
 ## DONATE
 
@@ -128,11 +132,9 @@ We thank all those who contributed to this project / Agradecemos a todos los que
 
 BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
-## LICENCES
+## BUILD
 
 ---
-
-[![GPL-3.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
 
 © 2021 [Maravento Studio](http://www.maravento.com)
 
