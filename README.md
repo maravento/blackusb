@@ -108,7 +108,7 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 - After executing the BLOCK option, the **whitelist.txt** report file, which contains the white list of USB/HID devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option / Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte **whitelist.txt**, que contiene la lista blanca de dispositivos USB/HID excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE
 - BlackUSB for Windows is included in [Dextroyer](https://www.maravento.com/p/dxt.html) / BlackUSB para Windows está incluido en [Dextroyer](https://www.maravento.com/p/dxt.html)
 
-## USED TOOLS
+## PACKAGES AND TOOLS
 
 ---
 
