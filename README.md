@@ -84,11 +84,13 @@ This project is based on: / Este proyecto está basado en:
 
 ---
 
+
+
 Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardReader, PCMCIA, Printers, SCSI, RAID, etc. Cleans previous device installations, rescans those connected and blocks new ones / Herramienta para bloquear dispositivos no autorizados USB, HID, HDC, Bluetooth, IEEE, SmartCardReader, PCMCIA, Printers, SCSI, RAID, etc. Limpia instalaciones previas de dispositivos, reescanea los conectados y bloquea los nuevos
 
 ### Data Sheet (For Windows)
 
-[![Image](https://1.bp.blogspot.com/-Y_vVfquMvAE/WsOHgH6kY1I/AAAAAAAAD6Q/PPbPjbEBHH4YJDrcU6tE0ENbhHMroAmRQCLcBGAs/s1600/quick-download.png)](https://gitlab.com/maravento/blackusb/-/raw/master/win/blackusb.zip)
+[![Image](https://gitlab.com/maravento/blackusb/-/raw/master/img/download.png)](https://gitlab.com/maravento/blackusb/-/raw/master/win/blackusb.zip)
 
 |File|Version|OS|Size|
 |----|-------|--|----|
@@ -101,6 +103,10 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 - Run Setup by double-clicking accept execution with privileges and follow the onscreen instructions / Ejecútelo con doble clic, acepte la ejecución con privilegios y siga las instrucciones en pantalla
 
 ### Important Before Use
+
+<div align="center">
+  <img src="https://gitlab.com/maravento/blackusb/-/raw/master/img/blackusb.png">
+</div>
 
 - Do not press **BLOCK** button twice in a row or it will block all USB/HID devices. / No pulse el botón **BLOCK**, dos veces seguidas, o bloqueará todos los dispositivos USB/HID
 - If you have defined [GPO policies](https://en.wikipedia.org/wiki/Group_Policy) on your system, they will be rewritten. Make a GPO backup before using BlackUSB / Si tiene establecidas [políticas GPO](https://es.wikipedia.org/wiki/Directiva_de_Grupo) en su sistema, serán reescritas. Haga backup GPO antes de usar BlackUSB
