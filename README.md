@@ -15,7 +15,7 @@
 It is a bash script that generates a white list of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules / Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
 
 ```bash
-sudo wget -q -N https://gitlab.com/maravento/blackusb/-/raw/master/linux/blackusb.sh -O /etc/init.d/blackusb.sh && sudo chmod +x /etc/init.d/blackusb.sh
+sudo wget -q -N https://raw.githubusercontent.com/maravento/blackusb/master/linux/blackusb.sh -O /etc/init.d/blackusb.sh && sudo chmod +x /etc/init.d/blackusb.sh
 ```
 
 ### How To Use (For Linux)
@@ -90,7 +90,7 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 
 ### Data Sheet (For Windows)
 
-[![Image](https://gitlab.com/maravento/blackusb/-/raw/master/img/download.png)](https://gitlab.com/maravento/blackusb/-/raw/master/win/blackusb.zip)
+[![Image](https://raw.githubusercontent.com/maravento/blackusb/master/img/download.png)](https://raw.githubusercontent.com/maravento/blackusb/master/win/blackusb.zip)
 
 |File|Version|OS|Size|
 |----|-------|--|----|
@@ -105,7 +105,7 @@ Tool to block unauthorized devices USB, HID, HDC, Bluetooth, IEEE, SmartCardRead
 ### Important Before Use
 
 <div align="center">
-  <img src="https://gitlab.com/maravento/blackusb/-/raw/master/img/blackusb.png">
+  <img src="https://raw.githubusercontent.com/maravento/blackusb/master/img/blackusb.png">
 </div>
 
 - Do not press **BLOCK** button twice in a row or it will block all USB/HID devices. / No pulse el botón **BLOCK**, dos veces seguidas, o bloqueará todos los dispositivos USB/HID
