@@ -1,4 +1,4 @@
-- name: Remove runs of the cleanup workflow itself
+name: Remove runs of the cleanup workflow itself
   uses: actions/github-script@v4 # https://github.com/actions/github-script
   with:
     github-token: ${{ secrets.GITHUB_TOKEN }}
